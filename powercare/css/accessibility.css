@@ -1,0 +1,111 @@
+#skip a,
+#skip a:hover,
+#skip a:visited {
+    position:absolute;
+    left:0px;
+    top:-500px;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    color: #FFF;
+    background: #1999e6;
+    border:1px solid #000;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.rtl #skip a:active,
+.rtl #skip a:focus {
+    position: absolute;
+    width:auto;
+    height:auto;
+    top:0;
+    left: auto;
+    right: 0;
+    z-index: 999;
+}
+#skip a:active,
+#skip a:focus {
+    position: absolute;
+    width:auto;
+    height:auto;
+    top:0;
+    left: 0;
+    right: auto;
+    z-index: 999;
+}
+.admin-bar #skip a:active,
+.admin-bar #skip a:focus {
+    top: 32px;
+}
+a.imgWrapper:focus,
+.inner_access .wrap_block a:focus,
+.council-lnk a:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.council-lnk a {
+    display: inline-block;
+}
+.search-block label {
+	text-indent: -9999999px;
+	display: none;
+}
+
+/******************************************/
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+    color: #9d0000;
+}
+.social-block .lnk:focus {
+    background-position: right bottom;
+}
+.search-block .sub-but:focus,
+.search-block .footer-send:focus {
+    background: #66d900;
+}
+.footerColumn ul > li > a:focus,
+.subject-lnk:focus .txt {
+    color: #66d900;
+}
+.demi-content a.lnk:focus,
+.katzrin-items:focus .lnk {
+    background: #66d900;
+}
+.subject-lnk:focus .icon {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.toAllBtn:focus {
+    background: #1479B6;
+}
+.wheelchair-icon:focus {
+    background: #1374AE;
+}
+
+.topOpencontactMenu {
+    position: absolute;
+    top:-100%;
+    z-index: 100;
+}
+.contactMenuIsOpen .topOpencontactMenu {
+    top:0;
+}
+.contactMenuIsOpen .wrapper {
+    margin-top: 143px;
+}
+.topOpencontactMenu_miniDiv {
+    top:0;
+    height: auto;
+}
+.active_mega_menu .megaMenu {
+    display: block;
+}
+
+.council-items .cont-but:focus {
+    background: #1999e6;
+    color: #fff;
+}
+.social-sites .lnk:focus {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}

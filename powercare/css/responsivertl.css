@@ -1,0 +1,53 @@
+@media screen and (max-width: 640px) {
+
+
+
+
+
+
+    .toggle_btn_menu {
+        position: absolute;
+        z-index: 999;
+        top: 4px;
+        right: auto;
+        left: 29px;
+    }
+
+
+
+    /* --------------------   H  O  M  E  P  A  G  E  ----------------  */
+
+    .main_slider .inner_slider {
+        left: auto;
+        right: 0;
+    }
+
+    .slide_con {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .sys_operating a {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* -------------   A  B  O  U  T  -----------  */
+
+
+    .about_mobile_wrap{
+    	padding-left:0;
+        padding-right: 10px;
+    }
+
+
+    /* -------------   F  O  O  T  E  R  -----------  */
+
+    footer .wrap_socials {
+        padding-left: 0;
+        border-left: 0;
+        padding-right: 0;
+        border-right: 0;
+
+    }
+}

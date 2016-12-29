@@ -1,0 +1,60 @@
+@media screen and (max-width: 640px) {
+    
+    .toggle_btn_menu {
+        right: auto;
+        left: 29px;
+    }
+
+    nav ul li:last-child {
+        margin-left: 20px;
+    }
+
+    .open_menu img {
+        -webkit-transform: scaleX(-1);
+           -moz-transform: scaleX(-1);
+             -o-transform: scaleX(-1);
+                transform: scaleX(-1);
+            filter: FlipH;
+        -ms-filter: 'FlipH';
+    }
+
+    .top_menu_socials {
+        border-right: 0;
+        padding-right:0;
+    }
+
+    /* --------------------   H  O  M  E  P  A  G  E  ----------------  */
+
+    .main_slider .inner_slider {
+        right: 0;
+        left: auto;
+    }
+
+    .slide_con {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .sys_operating a {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* -------------   A  B  O  U  T  -----------  */
+
+
+    .about_mobile_wrap {
+        padding-right: 10px;
+        padding-left: 0;
+    }
+
+
+    /* -------------   F  O  O  T  E  R  -----------  */
+
+    footer .wrap_socials {
+        padding-right: 0;
+        padding-left: 0;
+        border-right: 0;
+        border-left: 0;
+    }
+}

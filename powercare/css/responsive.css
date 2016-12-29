@@ -1,0 +1,230 @@
+@media screen and (min-width: 40em) {
+    body.pageLoaded .top-bar {
+        display: block;
+    }
+
+    .title-bar {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    header {
+        position: absolute;
+        padding: 0;
+    }
+
+    nav {
+        float: none;
+    }
+
+    nav ul li:last-child{
+        margin-right: 20px;
+    }
+
+    .title-bar {
+        background: transparent;
+    }
+
+    .menu_div {
+        position: fixed;
+        top: 0;
+        display: none;
+        width: 100%;
+        height: 100vh;
+        padding-top: 0;
+        background: rgba(252,249,243,.93);
+    }
+
+    .admin-bar .menu_div {
+        padding-top: 46px;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+
+    .mobile_only {
+        display: block;
+    }
+
+    .mobile_menu_wrap ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile_menu_wrap ul li a {
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 15px;
+    }
+
+    .wrap_mobile_lang ul li:last-child {
+        margin-left: 0;
+    }
+
+    .mobile_menu_wrap ul li:last-child a {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .top_menu_socials {
+        line-height: 1;
+        float: none;
+        min-height: auto;
+        margin-top: 20px;
+        padding-left: 0;
+        text-align: center;
+        border-left: 0;
+    }
+
+    .wrap_mobile_lang ul li a {
+        text-transform: uppercase;
+        color: #666;
+    }
+
+    .wrap_mobile_lang ul li.active a {
+        border-bottom: 2px solid #333;
+    }
+
+    .wrapper {
+        height: auto;
+        min-height: 540px;
+        background: url(../images/home_bg_01.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
+
+    .toggle_btn_menu {
+        position: absolute;
+        z-index: 999;
+        top: 4px;
+        right: 29px;
+    }
+
+    /*.open_menu*/
+
+    .close_menu {
+        position: fixed;
+        display: none;
+    }
+
+    .admin-bar .close_menu {
+        top: 50px;
+    }
+
+    /* --------------------   H  O  M  E  P  A  G  E  ----------------  */
+
+    .first_wrap {
+        padding-top: 120px;
+    }
+
+
+    .main_slider .inner_slider {
+        position: relative;
+        top: auto;
+        left: 0;
+        width: 100%;
+        -webkit-transform: none;
+           -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                transform: none;
+    }
+
+    .col_3 {
+        width: 45%;
+    }
+
+    .col_9 {
+        width: 55%;
+    }
+
+    .wrap_map_img img {
+        width: 86%;
+    }
+
+    .map_wrap_title {
+        font-size: 2rem;
+    }
+
+    .map_slide_con {
+        font-size: 1.3rem;
+        margin-top: 7px;
+    }
+
+    .title_img,
+    .small_title {
+        text-align: center;
+    }
+
+    .small_title {
+        border-bottom: 0;
+    }
+
+    .slide_con {
+        font-size: 1.1rem;
+        margin-top: 20px;
+        padding-right: 30px;
+    }
+
+    .wrap_con {
+        margin-bottom: 20px;
+    }
+
+    .sys_operating a {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    /* -------------   A  B  O  U  T  -----------  */
+
+    body.page-template-tpl-about {
+        background-color: #fcf9f3;
+    }
+
+    .about_wrapper {
+        background-color: #fcf9f3;
+        background-image: none;
+    }
+
+    body.page-template-tpl-about .inner_wrapper {
+        padding-top: 100px;
+    }
+
+    .about_mobile_wrap {
+        padding-left: 10px;
+    }
+
+    /* -------------   F  O  O  T  E  R  -----------  */
+
+    footer {
+        line-height: 1;
+        position: relative;
+        height: 105px;
+        min-height: auto;
+        border-top: 1px solid #cdcbc5;
+        background-color: #fcf9f3;
+    }
+
+    .copy_footer {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .wrap_socials {
+        line-height: 1;
+        float: none;
+        height: 30px;
+        min-height: auto;
+        margin-top: 0;
+        padding-left: 0;
+        text-align: center;
+        border-left: 0;
+    }
+}
